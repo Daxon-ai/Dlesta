@@ -9,20 +9,20 @@ const chalk = require('chalk');
 
 //~~~~~~~~~~~~< GLOBAL SETTINGS >~~~~~~~~~~~~\\
 
-global.owner = ['6282113821188'] //['628','628'] 2 owner atau lebih
-global.packname = 'Bot WhatsApp'
-global.author = 'Nazedev'
-global.botname = 'Naze Bot'
-global.listprefix = ['+','!','.']
-global.listv = ['•','●','■','✿','▲','➩','➢','➣','➤','✦','✧','△','❀','○','□','♤','♡','◇','♧','々','〆']
+global.owner = ['254706519089'] //['628','628'] 2 owner atau lebih
+global.packname = 'DAXON'
+global.author = 'LESTA'
+global.botname = 'Daxon Bot'
+global.listprefix = ['/','!','.']
+global.listv = ['➩','♡','◇','♧']
 global.tempatDB = 'database.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.tempatStore = 'baileys_store.json' // Taruh url mongodb di sini jika menggunakan mongodb. Format : 'mongodb+srv://...'
 global.pairing_code = true
 global.number_bot = '' // Kalo pake panel bisa masukin nomer di sini, jika belum ambil session. Format : '628xx'
 
 global.fake = {
-	anonim: 'https://telegra.ph/file/95670d63378f7f4210f03.png',
-	thumbnailUrl: 'https://telegra.ph/file/fe4843a1261fc414542c4.jpg',
+	anonim: 'https://files.catbox.moe/6afvpo.jpg',
+	thumbnailUrl: 'https://files.catbox.moe/6afvpo.jpg',
 	thumbnail: fs.readFileSync('./src/media/naze.png'),
 	docs: fs.readFileSync('./src/media/fake.pdf'),
 	listfakedocs: ['application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','application/vnd.openxmlformats-officedocument.presentationml.presentation','application/vnd.openxmlformats-officedocument.wordprocessingml.document','application/pdf'],
@@ -36,27 +36,27 @@ global.my = {
 }
 
 global.limit = {
-	free: 20,
-	premium: 999,
-	vip: 9999
+	free: 2000000,
+	premium: 999999,
+	vip: 999999999
 }
 
 global.money = {
-	free: 10000,
-	premium: 1000000,
-	vip: 10000000
+	free: 100000,
+	premium: 100000000,
+	vip: 1000000000
 }
 
 global.mess = {
 	key: 'Apikey mu telah habis silahkan kunjungi\nhttps://my.hitori.pw',
-	owner: 'Fitur Khusus Owner!',
-	admin: 'Fitur Khusus Admin!',
-	botAdmin: 'Bot Bukan Admin!',
-	group: 'Gunakan Di Group!',
-	private: 'Gunakan Di Privat Chat!',
-	limit: 'Limit Anda Telah Habis!',
+	owner: 'Command for Owner!',
+	admin: 'Command for Admin!',
+	botAdmin: 'Bot Must be Admin!',
+	group: 'set for Groups only!',
+	private: 'Set in Private Chat Only!',
+	limit: 'Limit has ended!',
 	prem: 'Khusus User Premium!',
-	wait: 'Loading...',
+	wait: 'Loading....🌼',
 	error: 'Error!',
 	done: 'Done'
 }
@@ -71,8 +71,8 @@ global.APIKeys = {
 
 // Lainnya
 
-global.badWords = ['tolol','goblok','asu','pantek','kampret','ngentot','jancok','kontol','memek','lonte']
-global.chatLength = 1000
+global.badWords = ['fuck,Sex, lesbian , porn']
+global.chatLength = 100000
 
 //~~~~~~~~~~~~~~~< PROCESS >~~~~~~~~~~~~~~~\\
 
